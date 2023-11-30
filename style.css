@@ -1,0 +1,68 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width: 360px) {
+    header {
+        background-color: grey;
+        padding: 5px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;   
+        align-items: center; 
+        border-bottom: 10px solid goldenrod; 
+    }
+
+    h1{
+        color: white;
+        padding: 3px;
+        font-size: 3vw;
+    }
+    nav{
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        font-size: 1.8vw;
+    }
+}
+@media (min-width: 768px){
+    header{
+        flex-direction: row;
+        background-color: grey;
+    }
+}
+.head2{
+    text-align: center;
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.p1{
+    text-align: center;
+}
+.con2{
+    display: flex;
+    flex-direction: row;
+
+}
+.article3{
+    background-color: gray;
+}
+.con{
+    background-image: url(./images/prog.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: goldenrod;
+   
+}
